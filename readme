@@ -1,9 +1,400 @@
-1.	Crie um programa que mostre seu nome, idade e altura.
-2.	Leia dois números inteiros e mostre soma, subtração e multiplicação.
-3.	Leia duas notas e calcule a média.
-4.	Leia uma idade e informe se a pessoa é maior ou menor de idade.
-5.	Leia média e frequência e informe se o aluno está aprovado.
-6.	Leia um número e mostre sua tabuada de 1 a 10 usando for.
-7.	Mostre os números de 1 a 20 usando while.
-8.	Leia números repetidamente até que o usuário digite 0.
-9.	Leia 5 notas usando for e informe quantas são maiores ou iguais a 6.
+💻 Exercícios de Programação em C
+
+
+
+
+
+Repositório desenvolvido para a disciplina de Programação, contendo exercícios práticos desenvolvidos em linguagem C.
+
+O projeto reúne atividades de nível básico e intermediário com o objetivo de praticar conceitos fundamentais da programação, como variáveis, operadores, estruturas condicionais, estruturas de repetição, contadores, acumuladores, validação de dados e manipulação de caracteres.
+
+📚 Sobre o projeto
+
+Este projeto foi desenvolvido como parte das atividades acadêmicas da disciplina de programação.
+
+Os exercícios foram implementados individualmente e organizados em arquivos separados, seguindo a ordem proposta nas atividades.
+
+Ao longo do projeto são trabalhados diferentes conceitos da linguagem C, permitindo praticar desde operações matemáticas simples até problemas que exigem estruturas de repetição, validação de entradas e processamento de dados.
+
+🎯 Objetivos
+
+O principal objetivo deste projeto é desenvolver e consolidar conhecimentos fundamentais da linguagem C e da lógica de programação.
+
+Entre os objetivos estão:
+
+Praticar a declaração e utilização de variáveis;
+
+Trabalhar com diferentes tipos de dados;
+
+Utilizar printf() e scanf() para entrada e saída de informações;
+
+Aplicar operadores aritméticos, relacionais e lógicos;
+
+Utilizar estruturas condicionais;
+
+Trabalhar com estruturas de repetição;
+
+Desenvolver soluções utilizando contadores e acumuladores;
+
+Realizar validações de entrada;
+
+Trabalhar com strings e vetores de caracteres;
+
+Desenvolver algoritmos para resolução de problemas;
+
+Aprimorar o raciocínio lógico e a organização do código.
+
+🛠️ Tecnologias utilizadas
+
+Linguagem: C
+
+Compilador: GCC
+
+Controle de versão: Git
+
+Plataforma de hospedagem: GitHub
+
+📌 Exercícios
+🟢 Exercícios Básicos
+ex1.c — Dados pessoais
+
+Programa responsável por exibir informações pessoais do usuário, como:
+
+Nome;
+
+Idade;
+
+Altura.
+
+Conceitos praticados: variáveis, tipos de dados e saída de informações.
+
+ex2.c — Operações com dois números
+
+O programa lê dois números inteiros e apresenta:
+
+Soma;
+
+Subtração;
+
+Multiplicação.
+
+Conceitos praticados: entrada de dados e operadores aritméticos.
+
+ex3.c — Média de duas notas
+
+O programa solicita duas notas e calcula a média entre elas.
+
+Conceitos praticados: entrada de dados, variáveis e operações matemáticas.
+
+ex4.c — Verificação de maioridade
+
+O programa recebe a idade de uma pessoa e informa se ela é:
+
+Maior de idade;
+
+Menor de idade.
+
+Conceitos praticados: estrutura condicional if/else.
+
+ex5.c — Situação do aluno
+
+O programa recebe a média e a frequência de um aluno e verifica se ele está aprovado.
+
+Conceitos praticados: estruturas condicionais e operadores lógicos.
+
+ex6.c — Tabuada
+
+O programa solicita um número e exibe sua tabuada de 1 a 10 utilizando uma estrutura for.
+
+Conceitos praticados: estrutura de repetição for.
+
+ex7.c — Números de 1 a 20
+
+O programa apresenta os números de 1 a 20 utilizando uma estrutura while.
+
+Conceitos praticados: estrutura de repetição while.
+
+ex8.c — Leitura de números até zero
+
+O programa realiza a leitura de números repetidamente até que o usuário informe o valor 0.
+
+Conceitos praticados: estruturas de repetição e condição de parada.
+
+ex9.c — Contagem de notas
+
+O programa lê 5 notas utilizando for e informa quantas notas são maiores ou iguais a 6.
+
+Conceitos praticados: for, contador e estruturas condicionais.
+
+🟡 Exercícios de Nível Intermediário
+ex10.c — Média ponderada com validação
+
+O programa lê três notas e seus respectivos pesos:
+
+Peso 2;
+
+Peso 3;
+
+Peso 5.
+
+A partir desses valores, é calculada a média ponderada.
+
+A situação do aluno é determinada de acordo com a média:
+
+Média	Situação
+Média ≥ 6	Aprovado
+Média entre 4 e 6	Exame
+Média < 4	Reprovado
+
+O programa também realiza uma validação dos pesos. Caso algum peso seja informado como 0, uma mensagem de erro é exibida antes do cálculo.
+
+Conceitos praticados: média ponderada, validação de dados e estruturas condicionais.
+
+ex11.c — Maior, menor e média de N números
+
+O programa solicita ao usuário quantos números serão digitados.
+
+Em seguida, os valores são lidos utilizando uma estrutura for.
+
+Ao final, são apresentados:
+
+Maior valor;
+
+Menor valor;
+
+Média dos valores informados.
+
+A solução utiliza apenas variáveis acumuladoras, sem utilização de vetores.
+
+Conceitos praticados: for, acumuladores, comparação de valores e cálculo de média.
+
+ex12.c — Contagem de aprovados, exames e reprovados
+
+O programa lê as notas de 10 alunos e calcula a média de cada um.
+
+Ao final, apresenta a quantidade de alunos em cada situação:
+
+Aprovados;
+
+Exame;
+
+Reprovados.
+
+São utilizados três contadores independentes.
+
+Conceitos praticados: for, contadores, cálculo de médias e estruturas condicionais.
+
+ex13.c — Classificação de triângulo
+
+O programa recebe três valores representando os lados de um triângulo.
+
+Primeiramente, verifica se os valores formam um triângulo válido. Para isso, a soma de dois lados deve ser maior que o terceiro lado.
+
+Caso seja válido, o triângulo é classificado como:
+
+Equilátero;
+
+Isósceles;
+
+Escaleno.
+
+Caso os valores não atendam às condições necessárias, o programa informa que não formam um triângulo válido.
+
+Conceitos praticados: if/else if, operadores relacionais e operadores lógicos.
+
+ex14.c — Tabuada com repetição
+
+O programa solicita um número e apresenta sua tabuada de 1 a 10 utilizando for.
+
+Após apresentar a tabuada, o usuário pode escolher se deseja consultar outra.
+
+Deseja ver outra tabuada? (1-Sim / 0-Não)
+
+
+O processo é repetido utilizando while até que o usuário escolha sair.
+
+Conceitos praticados: for, while, entrada de dados e controle de repetição.
+
+ex15.c — Contagem de vogais e consoantes
+
+O programa lê uma palavra utilizando:
+
+scanf("%49s", palavra);
+
+
+Em seguida, percorre o vetor de caracteres utilizando for, analisando cada caractere até encontrar o caractere terminador \0.
+
+Ao final, informa:
+
+Quantidade de vogais;
+
+Quantidade de consoantes.
+
+Conceitos praticados: strings, vetor de char, índices, for e caractere \0.
+
+ex16.c — Verificador de número primo
+
+O programa recebe um número inteiro positivo e verifica se ele é um número primo.
+
+A verificação utiliza uma estrutura for e o operador módulo % para verificar possíveis divisores.
+
+Conceitos praticados: for, operador %, divisibilidade e lógica matemática.
+
+ex17.c — Menu de calculadora
+
+O programa apresenta um menu de calculadora com as seguintes opções:
+
+1 - Soma
+2 - Subtração
+3 - Multiplicação
+4 - Divisão
+5 - Sair
+
+
+O menu é apresentado repetidamente utilizando while.
+
+A opção escolhida pelo usuário é processada utilizando estruturas if/else if.
+
+O programa também realiza o tratamento da divisão por zero.
+
+Conceitos praticados: menus, while, scanf(), if/else if e validação de operações.
+
+ex18.c — Sequência de Fibonacci
+
+O programa solicita ao usuário quantos termos da sequência de Fibonacci deseja visualizar.
+
+A sequência utilizada é:
+
+0, 1, 1, 2, 3, 5, 8, 13, ...
+
+
+A implementação utiliza:
+
+Estrutura for;
+
+Três variáveis inteiras;
+
+Nenhum vetor.
+
+Conceitos praticados: for, variáveis auxiliares e geração de sequências numéricas.
+
+ex19.c — Validação de faixa
+
+O programa solicita que o usuário informe um número entre 1 e 100.
+
+Enquanto o valor estiver fora dessa faixa, o programa continua solicitando uma nova entrada e apresenta uma mensagem de erro.
+
+Quando um valor válido é informado, o programa apresenta a quantidade de tentativas realizadas.
+
+Conceitos praticados: while, validação de entrada, contador e estruturas condicionais.
+
+📂 Estrutura do projeto
+
+Os exercícios estão organizados individualmente de acordo com a sequência das atividades:
+
+.
+├── README.md
+├── ex1.c
+├── ex2.c
+├── ex3.c
+├── ex4.c
+├── ex5.c
+├── ex6.c
+├── ex7.c
+├── ex8.c
+├── ex9.c
+├── ex10.c
+├── ex11.c
+├── ex12.c
+├── ex13.c
+├── ex14.c
+├── ex15.c
+├── ex16.c
+├── ex17.c
+├── ex18.c
+└── ex19.c
+
+▶️ Como executar
+1. Clonar o repositório
+
+No terminal, utilize:
+
+git clone URL_DO_SEU_REPOSITORIO
+
+
+Depois, entre na pasta do projeto:
+
+cd nome-do-repositorio
+
+2. Compilar um exercício
+
+Com o compilador GCC instalado, escolha o exercício que deseja executar.
+
+Por exemplo:
+
+gcc ex1.c -o ex1
+
+3. Executar
+Linux / macOS
+./ex1
+
+Windows
+ex1.exe
+
+
+Para executar outro exercício, basta alterar o número:
+
+gcc ex10.c -o ex10
+./ex10
+
+
+ou:
+
+gcc ex19.c -o ex19
+./ex19
+
+🧠 Conceitos desenvolvidos
+
+Ao longo dos 19 exercícios, foram trabalhados diversos fundamentos da linguagem C:
+
+Conceito	Aplicação
+Variáveis	Armazenamento de informações
+printf()	Exibição de informações
+scanf()	Entrada de dados
+Operadores aritméticos	Cálculos matemáticos
+Operadores relacionais	Comparações
+Operadores lógicos	Combinação de condições
+if / else	Tomada de decisões
+for	Repetições controladas
+while	Repetições condicionais
+Contadores	Contagem de ocorrências
+Acumuladores	Soma e processamento de valores
+%	Verificação de divisibilidade
+char	Manipulação de caracteres
+Strings	Processamento de palavras
+Validação	Controle de entradas do usuário
+📈 Aprendizados
+
+O desenvolvimento deste projeto permitiu praticar a construção de algoritmos a partir de problemas propostos, trabalhando desde operações básicas até soluções que envolvem múltiplas condições e estruturas de repetição.
+
+Os exercícios também contribuíram para o desenvolvimento do raciocínio lógico e para uma melhor compreensão da sintaxe e dos principais recursos da linguagem C.
+
+🎓 Finalidade acadêmica
+
+Este repositório foi desenvolvido exclusivamente para fins acadêmicos, como parte das atividades da disciplina de programação.
+
+Os exercícios representam a prática dos conteúdos estudados em sala de aula e servem como registro do processo de aprendizagem e desenvolvimento em linguagem C.
+
+👨‍💻 Autor
+
+Matheus Belini
+
+Estudante de Engenharia de Software
+
+Projeto desenvolvido para a disciplina de Programação.
+
+📄 Licença
+
+Este projeto possui finalidade acadêmica e educacional.
+
+O código pode ser utilizado para fins de estudo e aprendizado, respeitando as orientações e regras estabelecidas pela instituição de ensino.
